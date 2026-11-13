@@ -1,49 +1,67 @@
 <div align="center">
-  <img src="./assets/header.svg" alt="Alexander Perikliev — Software Engineer" width="100%" />
+  <img src="./assets/header.svg" alt="Alexander Perikliev — Backend and Full-Stack Software Engineer" width="100%" />
 </div>
-I design and build software for real operational workflows, with a focus on backend systems, data integrity, and dependable delivery.
 
-My approach combines AI-assisted implementation with explicit engineering constraints, independent review, and automated verification. The goal is not to generate more code. It's to ship systems that behave correctly when conditions get complicated.
-Selected work
-<table>
-<tr>
-<td width="50%" valign="top">01 / RENT-A-CAR V3
+# I build software that holds up under pressure.
 
-A booking and payment platform built around the details that matter: availability, conflicting reservations, and reliable payment processing.
+I work on backend-heavy products where **data integrity, concurrency, permissions, and reliable delivery** matter. The interesting problems usually show up when two requests happen at once, a workflow gets interrupted, or an assumption stops being true.
 
-Node.js · PostgreSQL · Stripe · Docker · AWS
+I use AI agents extensively for implementation and independent reviews. **Generated code isn't proof that something works.** Tests, database constraints, and observable behavior are.
 
-Explore repository
-</td>
-<td width="50%" valign="top">
-02 / MAINTENANCE
+---
 
-A hotel operations platform connecting housekeeping, supervisors, reception, and maintenance teams through role-aware workflows.
+## Technology stack
 
-TypeScript · Express · React · Prisma · PostgreSQL
+### Backend &amp; data
 
-Explore repository
-</td>
-</tr>
-</table>Technologies
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="34" height="34" alt="TypeScript" title="TypeScript" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="34" height="34" alt="JavaScript" title="JavaScript" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="34" height="34" alt="Node.js" title="Node.js" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" width="34" height="34" alt="Express" title="Express" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="34" height="34" alt="React" title="React" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="34" height="34" alt="PostgreSQL" title="PostgreSQL" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg" width="34" height="34" alt="Prisma" title="Prisma" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="34" height="34" alt="Docker" title="Docker" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="34" height="34" alt="AWS" title="AWS" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" width="34" height="34" alt="GitHub Actions" title="GitHub Actions" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg" width="34" height="34" alt="Nginx" title="Nginx" />
-</p>How I work
-Define the invariants. Identify the rules the system must never break.
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="Node.js" title="Node.js" width="52" height="52" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" title="TypeScript" width="52" height="52" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript" width="52" height="52" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" alt="Express" title="Express" width="52" height="52" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" title="PostgreSQL" width="52" height="52" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg" alt="Prisma" title="Prisma" width="52" height="52" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="MongoDB" title="MongoDB" width="52" height="52" />&nbsp;&nbsp;&nbsp;
+</p>
 
-Build in small, verifiable steps. Use AI agents for implementation and independent review, with clear boundaries and acceptance criteria.
+**Node.js** · **TypeScript** · **JavaScript** · **Express** · **PostgreSQL** · **Prisma** · **MongoDB**
 
-Test the failure paths. Pay particular attention to permissions, concurrency, state transitions, and database consistency.
+### Frontend
 
-Own the deployment. Treat CI, migrations, backups, and operational visibility as part of the product.
-<sub>Based in Bulgaria · Open to software engineering opportunities</sub>
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" title="React" width="52" height="52" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" title="HTML5" width="52" height="52" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3" title="CSS3" width="52" height="52" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" title="Tailwind CSS" width="52" height="52" />&nbsp;&nbsp;&nbsp;
+</p>
+
+**React** · **HTML5** · **CSS3** · **Tailwind CSS**
+
+### Linux, infrastructure &amp; delivery
+
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" alt="Linux" title="Linux" width="52" height="52" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ubuntu/ubuntu-original.svg" alt="Ubuntu" title="Ubuntu" width="52" height="52" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker" title="Docker" width="52" height="52" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg" alt="Nginx" title="Nginx" width="52" height="52" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" title="Git" width="52" height="52" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" alt="GitHub Actions" title="GitHub Actions" width="52" height="52" />&nbsp;&nbsp;&nbsp;
+</p>
+
+**Linux** · **Ubuntu** · **Docker** · **Nginx** · **Git** · **GitHub Actions** · **AWS**
+
+---
+
+## How I engineer
+
+**01 / Make the rules explicit.** Define what must always hold true, including the edge cases that aren't obvious from a happy-path demo.
+
+**02 / Check the difficult paths.** Concurrency, access control, transactions, state transitions, and failure recovery deserve more attention than the easy scenarios.
+
+**03 / Verify independently.** Use automated tests, review, and direct inspection of system behavior. An AI agent's confidence is not a test result.
+
+**04 / Ship responsibly.** CI/CD, deployment, migrations, backups, and operational visibility are part of the system, not work to leave for later.
+
+---
+
+**Based in Bulgaria** · Open to backend and full-stack software engineering opportunities
