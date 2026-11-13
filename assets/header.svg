@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+<title id="title">Alexander Perikliev | Software Engineer</title>
+<desc id="desc">Midnight-blue engineering banner with large typography and a clean system-flow diagram.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0B1119"/><stop offset="1" stop-color="#141F2A"/></linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M 32 0 L 0 0 0 32" fill="none" stroke="#283844" stroke-width="0.65"/></pattern>
+  <linearGradient id="glow" x1="0" x2="1"><stop stop-color="#71E1BB"/><stop offset="1" stop-color="#ACF5E1"/></linearGradient>
+</defs>
+<rect width="1200" height="380" rx="15" fill="url(#bg)"/>
+<rect width="1200" height="380" rx="15" fill="url(#grid)" opacity=".42"/>
+<rect x="0" y="0" width="7" height="380" fill="url(#glow)"/>
+<path d="M57 60H96" stroke="#7AE2BF" stroke-width="4" stroke-linecap="round"/>
+<text x="112" y="65" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" letter-spacing="3.2" fill="#8CE9CC">SOFTWARE ENGINEERING</text>
+<text x="55" y="157" font-family="Arial,Helvetica,sans-serif" font-size="69" font-weight="800" letter-spacing="-1.9" fill="#F2F7F8">Alexander</text>
+<text x="55" y="232" font-family="Arial,Helvetica,sans-serif" font-size="69" font-weight="800" letter-spacing="-1.9" fill="#F2F7F8">Perikliev</text>
+<text x="59" y="285" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="500" fill="#C5D6DF">Backend &amp; Full-Stack Engineering</text>
+<text x="59" y="332" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#91A8B6">Systems designed for the cases that aren't in the demo.</text>
+<path d="M803 63V316" stroke="#2A4651" stroke-width="1.5"/>
+<text x="834" y="85" font-family="Consolas,monospace" font-size="14" letter-spacing="2" fill="#668A94">SYSTEM / FLOW</text>
+<rect x="833" y="117" width="126" height="63" rx="10" fill="#142831" stroke="#49717B"/>
+<rect x="1000" y="117" width="126" height="63" rx="10" fill="#142831" stroke="#49717B"/>
+<rect x="833" y="219" width="293" height="63" rx="10" fill="#12292F" stroke="#49717B"/>
+<path d="M959 149H1000" stroke="#78DFBD" stroke-width="2.5"/>
+<path d="M993 143L1001 149L993 155" stroke="#78DFBD" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1064 180V204H979V219" stroke="#78DFBD" stroke-width="2.5" fill="none"/>
+<path d="M973 212L979 220L985 212" fill="none" stroke="#78DFBD" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="896" y="155" font-family="Consolas,monospace" font-size="19" text-anchor="middle" font-weight="700" fill="#EDF7F3">API</text>
+<text x="1063" y="155" font-family="Consolas,monospace" font-size="19" text-anchor="middle" font-weight="700" fill="#EDF7F3">STATE</text>
+<circle cx="861" cy="251" r="6" fill="#80E3C0"/>
+<text x="881" y="257" font-family="Consolas,monospace" font-size="18" font-weight="700" fill="#EDF7F3">VERIFICATION</text>
+<text x="836" y="316" font-family="Consolas,monospace" font-size="13" fill="#809CA8">DESIGN  /  TEST  /  SHIP</text>
+</svg>
